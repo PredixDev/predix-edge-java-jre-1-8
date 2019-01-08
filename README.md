@@ -1,5 +1,5 @@
 # predix-edge-java-jre-1-8
-Just a JRE extending Alpine Linux to keep it small
+A lightweight Docker Container with the Java JRE, extending Alpine Linux
 
 
 ## Docker Build
