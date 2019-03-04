@@ -15,7 +15,7 @@ docker build --no-cache --build-arg https_proxy=$http_proxy --build-arg no_proxy
 ```
 
 ## Docker Run
-
+ 
 ```bash
 docker run predixadoption/predix-edge-java-jre-1-8:latest 
 ```

@@ -5,7 +5,7 @@ LABEL maintainer="Predix Edge Apps"
 LABEL hub="https://hub.docker.com"
 LABEL org="https://hub.docker.com/u/predixadoption"
 LABEL repo="predix-edge-java-jre-1-8"
-LABEL version="1.0.5"
+LABEL version="1.0.6"
 LABEL support="https://forum.predix.io"
 LABEL license="https://github.com/PredixDev/predix-docker-samples/blob/master/LICENSE.md"
 
@@ -25,8 +25,8 @@ RUN echo "nameserver 8.8.8.8" >> /etc/resolv.conf && apk add -U curl  && \
     rm -f /var/cache/apk/*
 
 #just ensuring that internet connectivity is working through the proxy, if there is one
-RUN curl http://google.com
-RUN curl --insecure https://google.com
+#RUN curl http://google.com
+#RUN curl --insecure https://google.com
 
 #install Java
 RUN apk --update add openjdk8-jre && \
