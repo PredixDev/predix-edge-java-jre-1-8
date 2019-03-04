@@ -5,7 +5,7 @@ LABEL maintainer="Predix Edge Apps"
 LABEL hub="https://hub.docker.com"
 LABEL org="https://hub.docker.com/u/predixadoption"
 LABEL repo="predix-edge-java-jre-1-8"
-LABEL version="1.0.6"
+LABEL version="1.0.7"
 LABEL support="https://forum.predix.io"
 LABEL license="https://github.com/PredixDev/predix-docker-samples/blob/master/LICENSE.md"
 
